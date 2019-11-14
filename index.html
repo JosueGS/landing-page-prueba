@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,6 +10,7 @@
 
   <!-- Favicon -->
   <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
 
   <!-- Fontawsome -->
   <link rel="stylesheet" href="contenido/fontawesome/css/all.css">
@@ -22,11 +24,11 @@
 </head>
 
 <body>
-  <header class="bk-header">
+  <header class="bk-header" id="header-scrool">
     <div class="bk-header__menu centrar ctr-width ">
-      <a href="#" class="bk-header__logo">LOGO</a>
+      <a href="#" class="bk-header__logo" id="logo_id">LOGO</a>
       <nav class="bk-header__nav">
-        <ul class="bk-header_ul centrar">
+        <ul class="bk-header_ul centrar" id="nav_ul">
           <li><a href="">Inicio</a></li>
           <li><a href="">Nosotros</a></li>
           <li><a href="">Características</a></li>
@@ -38,21 +40,175 @@
       </nav>
     </div>
   </header>
+  <section class="bk-bgImg relativo">
+    <article class="bk-bgImg__art centrar">
+      <div class="bk-bgImg__details">
+        <h1 class="">
+          Estamos creando software para administrar negocios fácilmente
+        </h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+        <a href="#" class="btn-style-page">
+          <button>
+            EMPEZAR
+          </button>
+        </a>
+      </div>
+      <figure class="bk-bgImg__fig">
+        <img src="contenido/img/home-mockup.png" alt="">
+      </figure>
 
- <section>
+    </article>
+  </section>
 
- </section>
+  <section class="bk-about ctr-width">
+    <div class="bk-header-title vertical">
+      <h2>Quienes somos</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto laboriosam ratione sed culpa commodi
+        nostrum cum vitae necessitatibus magnam velit</p>
+      <span class="borde-lineal"></span>
+    </div>
+    <article class="bk-about__details">
+      <div class="bk-about__item vertical">
+        <div class="icon-details vertical">
+          <i class="fas fa-chart-pie"></i>
+        </div>
+        <h3>Fecha en tiempo real</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus sunt, doloribus architecto illo
+          asperiores odio quia eum.</p>
+      </div>
+      <div class="bk-about__item vertical">
+        <div class="icon-details vertical">
+          <i class="fas fa-chart-pie"></i>
+        </div>
+        <h3>Fecha en tiempo real</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus sunt, doloribus architecto illo
+          asperiores odio quia eum.</p>
+      </div>
+      <div class="bk-about__item vertical">
+        <div class="icon-details vertical">
+          <i class="fas fa-chart-pie"></i>
+        </div>
+        <h3>Fecha en tiempo real</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus sunt, doloribus architecto illo
+          asperiores odio quia eum.</p>
+      </div>
+    </article>
+    <a href="" class="btn-style-page centrar">
+      <button>Aprende más</button>
+    </a>
+  </section>
+  <section class="bk-features">
+    <div class="bk-features__crt ctr-width">
+      <div class="bk-header-title vertical">
+        <h2>Características principales</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto laboriosam ratione sed culpa commodi
+          nostrum
+          cum vitae necessitatibus magnam velit</p>
+        <span class="borde-lineal"></span>
+      </div>
+      <article class="bk-features__itemf centrar">
+        <figure class="bk-feature__img"><img src="contenido/img/icon/1.svg" alt=""></figure>
+        <div class="bk-features__details">
+          <span class="icon_features"><i class="fas fa-chart-pie"></i></span>
+          <h2>Ganar dinero a través de la publicidad.</h2>
+          <p>Suspendisse pellentesque lacinia maximus odio viverra ipsum sollicitudin lectus nibh urna aenean metus velit dignissim
+          varius porta massa vivamus congue quis finibus malesuada dolorem ipsum quia dolor pellentesque.</p>
+          <a href="#" class="btn-style-page">
+            <button>Aprender más</button>
+          </a>
+        </div>
+      </article>
+      <article class="bk-features__itemf  centrar">
+        <figure class="bk-feature__img f-order"><img src="contenido/img/icon/1.svg" alt=""></figure>
+        <div class="bk-features__details">
+          <span class="icon_features"><i class="fas fa-comment-alt"></i></span>
+          <h2>Ganar dinero a través de la publicidad.</h2>
+          <p>Suspendisse pellentesque lacinia maximus odio viverra ipsum sollicitudin lectus nibh urna aenean metus velit dignissim
+          varius porta massa vivamus congue quis finibus malesuada dolorem ipsum quia dolor pellentesque.</p>
+          <a href="#" class="btn-style-page">
+            <button>Aprender más</button>
+          </a>
+        </div>
+      </article>
+      <article class="bk-features__itemf centrar">
+        <figure class="bk-feature__img"><img src="contenido/img/icon/1.svg" alt=""></figure>
+        <div class="bk-features__details">
+          <span class="icon_features"><i class="fas fa-map-marked-alt"></i></span>
+          <h2>Ganar dinero a través de la publicidad.</h2>
+          <p>Suspendisse pellentesque lacinia maximus odio viverra ipsum sollicitudin lectus nibh urna aenean metus velit dignissim
+          varius porta massa vivamus congue quis finibus malesuada dolorem ipsum quia dolor pellentesque.</p>
+          <a href="#" class="btn-style-page">
+            <button>Aprender más</button>
+          </a>
+        </div>
+      </article>
+    </div>
+  </section>
 
-  <footer>
+
+
+  <footer class="bk-footer">
+    <article class="bk-footer__date ctr-width">
+      <div class="bk-footer__logo">
+          <h2>LOGO</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic officia quisquam fuga quasi odit.</p>
+      </div>
+      <nav class="bk-footer__nav1 vertical">
+        <h3>ENLACES RÁPIDOS</h3>
+        <a href=""><i class="fas fa-greater-than"></i>Caracteristicas </a>
+        <a href=""><i class="fas fa-greater-than"></i>Nosotros </a>
+        <a href=""><i class="fas fa-greater-than"></i>Clientes </a>
+        <a href=""><i class="fas fa-greater-than"></i>Precios </a>
+        <a href=""><i class="fas fa-greater-than"></i>Equipo </a>
+        <a href=""><i class="fas fa-greater-than"></i>Contacto </a>
+      </nav>
+      <nav class="bk-footer__nav1 vertical">
+        <h3>RECURSOS</h3>
+        <a href=""><i class="fas fa-greater-than"></i>Caracteristicas </a>
+        <a href=""><i class="fas fa-greater-than"></i>Nosotros </a>
+        <a href=""><i class="fas fa-greater-than"></i>Clientes </a>
+        <a href=""><i class="fas fa-greater-than"></i>Precios </a>
+        <a href=""><i class="fas fa-greater-than"></i>Equipo </a>
+        <a href=""><i class="fas fa-greater-than"></i>Contacto </a>
+      </nav>
+      <div class="bk-footer__suscrip">
+        <h3>SUSCRIBASE</h3>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo dolores magnam ab, fugiat ea quae? Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <form action="" class="form_footer centrar">
+          <input type="text">
+          <button type="submit"><i class="fas fa-location-arrow"></i></button>
+        </form>
+      </div>
+    </article>
+    
+    <div class="bk-footer_dev centrar"><span>Desarrollado por Josue Galarza Suarez</span></div>
   </footer>
+  <script src="contenido/js/jquery-3.3.1.min.js"></script>
+  <script src="contenido/js/myCustomjquery.js"></script>
+
+  <script>
+    window.onscroll = () => {
+        const nav = document.getElementById('header-scrool');
+        let link_item = document.getElementById('nav_ul');
+        let logo_id = document.getElementById('logo_id');
+        if (this.scrollY >= 5){
+            nav.classList.add('scroll');
+            link_item.classList.add('ul_link')
+            logo_id.classList.add('logo_color')
+        }  
+        else{
+          nav.classList.remove('scroll')
+          link_item.classList.remove('ul_link')
+          logo_id.classList.remove('logo_color')
+        }
+      };
+  </script>
 
 
 
-
-
-
-  <figure style="position: absolute; width: 100%; height: 100%; top:0; z-index: -1; opacity: 0.5;">
+  <!-- <figure style="position: absolute; width: 100%; height: 100%; top:0; z-index: -1; opacity: 0.7;">
     <img src="boceto.jpg" alt="">
-  </figure>
+  </figure> -->
 </body>
+
 </html>
